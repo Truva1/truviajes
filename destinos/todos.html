@@ -13,8 +13,9 @@
   </head>
   
   <body style="background-color: #e7dddc;">
-    <div class="container-fluid bg-info text-light" style="text-align: left; padding: 4px; padding-left: 20px;"> <!--Menu por toda la pantalla-->
-     <h3><i>Truviajes</i></h3> 
+    <div class="container-fluid bg-info text-light" style="text-align: left; padding-left: 5px;" > <!--Menu por toda la pantalla-->
+      <a class="btn btn-outline-info" href="../index.html" role="button"><img class="img" src="../img/truvi.png" alt=""></a>  
+      </a>
     </div>
 
     <div class="container col-sm-7 mt-3">
@@ -24,27 +25,39 @@
           <li data-target="#carousel1" data-slide-to="0" class="active"></li>
           <li data-target="#carousel1" data-slide-to="1"></li>
           <li data-target="#carousel1" data-slide-to="2"></li>
+          <li data-target="#carousel1" data-slide-to="3"></li>
+          <li data-target="#carousel1" data-slide-to="4"></li>
         </ol>
         <!-- diapositivas -->
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="d-block w-100" src="https://content.skyscnr.com/m/78c0adee87cafb12/original/eyeem-26694340-142112507.jpg?resize=1800px:1800px&quality=100" alt="">
+            <a class="btn btn-outline-ligth" href="" role="button"><img class="img-fluid " src="../img/inicio/Bahamas.jpg" alt=""></a>  </a>
               <div class="carousel-caption">
-                <h3>Sal de latam</h3>
-                <p>Persigue tus sueños.</p>
+                <h4>Bahamas</h4>
               </div>
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="https://wp-growpro.s3-eu-west-1.amazonaws.com/media/2020/08/viajes-para-aprender-ingles.jpg" alt="">
+            <a class="btn btn-outline-ligth" href="../destinos/sevilla.html" role="button"><img class="img-fluid " src="../img/inicio/sevilla.jpg" alt=""></a>  </a>
               <div class="carousel-caption">
-                <h3 style="color: black;">Viaja ahora</h3>
-                <p style="color: black; background-color: whitesmoke;">Y contagiate de omicron.</p>
+                <h4>Sevilla</h4>
               </div>
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="https://s1.eestatic.com/2021/08/05/curiosidades/significado/601955197_199391343_1706x960.jpg" alt="">
+            <a class="btn btn-outline-ligth" href="../destinos/miconos.html" role="button"><img class="img-fluid " src="../img/inicio/miconos.jpg" alt=""></a>  </a>
               <div class="carousel-caption">
-                <h3>¿A donde vamos?</h3>
+                <h4>Miconos</h4>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <a class="btn btn-outline-ligth" href="../destinos/toronto.html" role="button"><img class="img-fluid " src="../img/inicio/toronto.jpg" alt=""></a>  </a>
+              <div class="carousel-caption">
+                <h4>Toronto</h4>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <a class="btn btn-outline-ligth" href="" role="button"><img class="img-fluid " src="../img/inicio/san_andres.jpg" alt=""></a>  </a>
+              <div class="carousel-caption">
+                <h4>San Andres</h4>
               </div>
           </div>
         </div>
@@ -62,76 +75,33 @@
     </div>
 
     <div class="container mt-2">
-      <h3 id="destinos_destacados">Destinos destacados:</h3>
-
-      <h4>Sevilla, España:</h4>
-      <a class="btn btn-outline-info" href="./destinos/sevilla.html" role="button"><img class="img-fluid " src="./img/inicio/sevilla.jpg" alt=""></a>  
-      </a>
-
-      <h4 class="mt-3">Miconos, Grecia: <span class="badge badge-success">-15% OFF</span></h4>
-      <a class="btn btn-outline-info" href="./destinos/miconos.html" role="button"><img class="img-fluid " src="./img/inicio/miconos.jpg" alt="">  
-      </a>
-
-      <h4 class="mt-3">Toronto, Canada:</h4>
-      <a class="btn btn-outline-info" href="./destinos/toronto.html" role="button"><img class="img-fluid " src="./img/inicio/toronto.jpg" alt="">  
-      </a>
-
-      <h4 class="mt-3">Londres, Inglaterra:</h4>
-      <a class="btn btn-outline-info" href="./destinos/londres.html" role="button"><img class="img-fluid " src="./img/inicio/londres.jpg" alt="">  
-      </a>
-
+      <h3 id="destinos_destacados">Destinos:</h3>
+      <ul>
+        <li>Norte America:
+          <ul>
+            <li><a href="../destinos/toronto.html">Toronto, Canada</a></li>
+            <li><a href="">Nasáu,Bahamas</a></li>
+          </ul>
+        </li>
+        <li>Europa:
+          <ul>
+            <li><a href="../destinos/londres.html">Londres, Inglaterra</a></li>
+            <li><a href="../destinos/miconos.html">Miconos, Grecia</a></li>
+            <li><a href="../destinos/sevilla.html">Sevilla, España</a></li>
+            <li><a href="">Berlin, Alemania</a></li>
+          </ul>
+        </li>
+        <li>Colombia:
+          <ul>
+            <li><a href="">San Andres</a></li>
+            <li><a href="">Cartagena</a></li>
+            <li><a href="">Cali</a></li>
+            <li><a href="">Bogotá</a></li>
+          </ul>
+        </li>
+      </ul>
     </div>
 
-
-
-
-    <div class="container mt-2">
-      <div class="jumbotron">
-        <div class="container">
-          <h4>Te asesoramos:</h4> <!--solo con placeholder-->
-          <form>
-            <div class="form-row">
-              <div class="col-12">
-                <input type="text" class="form-control" placeholder="Nombre" />
-              </div>
-             <br>
-              <div class="col-12 col-sm-6">
-                <label for="correo">Correo Electrónico:</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="correo"
-                  placeholder="luis@email.com"
-                  required="true"
-                />
-              </div>
-              <div class="col-12 col-sm-6">
-                <div class="form-group">
-                  <label for="opciones">Region de interes:</label>
-                  <select class="form-control" id="opciones">
-                    <option>Seleccione una opcion</option>
-                    <option>Norteamerica</option>
-                    <option>Europa</option>
-                  </select>
-                </div>
-              </div>
-              
-              <div class="col-12 col-sm-6">
-                <label for="texto">Telefono</label>
-                <input type="text" class="form-control" placeholder="321 XXX XXXX" />
-              </div>
-    
-              <div class="col-6 mt-2">
-                <button type="submit" class="btn btn-primary">Continuar</button>
-              </div>
-            </div>
-          </form>
-  
-        </div>
-  
-      </div>
-  
-    </div>
           
     <footer>
       <div class="container-fluid bg-info text-light" style="text-align: left; padding-left: 5px;" > <!--Menu por toda la pantalla-->
